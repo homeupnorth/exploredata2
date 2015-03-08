@@ -1,0 +1,3 @@
+git add prep.txt
+git commit
+git push https://github.com/homeupnorth/exploredata2.git master
