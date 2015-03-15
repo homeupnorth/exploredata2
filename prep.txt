@@ -1,1 +1,1 @@
-Start to work on project 2. This is just a reminder.
+Moved data files out of working directory in order to merge code with github.
