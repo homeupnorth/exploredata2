@@ -18,6 +18,8 @@ NEI$Pollutant<-as.factor(NEI$Pollutant)
 NEI$type<-as.factor(NEI$type)
 NEI$year<-as.factor(NEI$year)
 #
+install.packages("ggplot2")
+library(ggplot2)
 #
 # QUESTION 6
 # ----------

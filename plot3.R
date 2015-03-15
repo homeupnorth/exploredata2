@@ -19,6 +19,9 @@ NEI$type<-as.factor(NEI$type)
 NEI$year<-as.factor(NEI$year)
 #
 #
+install.packages("ggplot2")
+library(ggplot2)
+#
 # QUESTION 3
 # ----------
 # Of the four types of sources indicated by the type (point, nonpoint, 
@@ -27,8 +30,6 @@ NEI$year<-as.factor(NEI$year)
 # seen increases in emissions from 1999–2008? Use the ggplot2 plotting 
 # system to make a plot answer this question.
 #
-install.packages("ggplot2")
-library(ggplot2)
 #
 baltcity<-subset(NEI, fips=="24510")
 Q3 <- ggplot(baltcity, aes(x=year, y=Emissions, fill=type)) +

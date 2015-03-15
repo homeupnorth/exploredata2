@@ -19,6 +19,9 @@ NEI$type<-as.factor(NEI$type)
 NEI$year<-as.factor(NEI$year)
 #
 #
+install.packages("ggplot2")
+library(ggplot2)
+#
 # QUESTION 4
 # ----------
 # Across the United States, how have emissions from coal combustion-related 
